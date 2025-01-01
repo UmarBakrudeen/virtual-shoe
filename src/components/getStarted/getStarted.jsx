@@ -17,8 +17,8 @@ const GetStarted = () => {
             { id: 3, name: "High-top Sneakers", images: ["https://img.freepik.com/premium-psd/sports-hightop-sneakers-3d-render_946288-2781.jpg"] },
         ],
         female: [
-            { id: 1, name: "Heels", images: ["https://pngimg.com/uploads/high_heels/high_heels_PNG24.png"] },
-            { id: 2, name: "Flats", images: ["https://pngimg.com/uploads/shoes/shoes_PNG7512.png"] },
+            { id: 1, name: "Heels", images: ["https://img.pikbest.com/origin/09/22/21/49qpIkbEsTzSC.png!sw800"] },
+            { id: 2, name: "Flats", images: ["https://w7.pngwing.com/pngs/911/774/png-transparent-sneakers-skate-shoe-women-s-sports-shoes-white-sport-leather.png"] },
         ],
     };
 
@@ -88,7 +88,7 @@ const GetStarted = () => {
 
                     {/* Column 3: Size Selector and Foot Outline Guide */}
                     <div className="flex flex-col w-full md:w-1/3 space-y-4">
-                        <div className="flex flex-col space-y-2">
+                        {/* <div className="flex flex-col space-y-2">
                             <label htmlFor="footLength" className="text-[#CF9C5D] font-medium">
                                 Enter foot length (cm):
                             </label>
@@ -100,7 +100,7 @@ const GetStarted = () => {
                                 className="p-2 border border-gray-300 rounded-md"
                                 placeholder="e.g., 25.5"
                             />
-                        </div>
+                        </div> */}
 
                         <div className="flex flex-col space-y-2">
                             <label htmlFor="size" className="text-[#CF9C5D] font-medium">
@@ -128,6 +128,19 @@ const GetStarted = () => {
                             </select>
                         </div>
 
+                        <div className="flex flex-col space-y-2">
+                            <label htmlFor="colorPicker" className="text-[#CF9C5D] font-medium">
+                                Pick a color:
+                            </label>
+                            <input
+                                type="color"
+                                id="colorPicker"
+                                value={color}
+                                onChange={handleColorChange}
+                                className="h-10 w-10 p-0 border-none cursor-pointer"
+                            />
+                        </div>
+
                         <div className="flex flex-col items-center">
                             <img
                                 src="https://static.thenounproject.com/png/2045495-200.png"
@@ -146,6 +159,7 @@ const GetStarted = () => {
                             </p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </Fragment>
