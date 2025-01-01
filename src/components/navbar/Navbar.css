@@ -1,0 +1,66 @@
+.serachbar {
+  background: linear-gradient(
+    247deg,
+    rgba(66, 66, 66, 0.1) 22.11%,
+    rgba(113, 113, 113, 0.4) 95.66%
+  );
+}
+
+.micro {
+  animation-delay: 5s;
+  animation: micro 2s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.shoe {
+  animation-delay: 2s !important;
+  animation: shoe 1s ease-in-out;
+  margin-bottom: 0px;
+  margin-left: -50px;
+}
+
+@keyframes shoe {
+  0% {
+    transform: translate(45px, -30px);
+  }
+  50% {
+    transform: translate(45px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.logo img {
+  animation-delay: 2s !important;
+  animation: shoeImg 0.5s ease-in-out;
+  margin-bottom: -6px;
+  margin-left: -8px;
+}
+
+@keyframes shoeImg {
+  0% {
+    rotate: -37deg;
+  }
+  50% {
+    rotate: -37deg;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-in-out;
+}

@@ -1,0 +1,52 @@
+.app-container {
+  background: radial-gradient(
+    204.28% 82.4% at 54.75% 43.9%,
+    #41505c 0%,
+    #0d1014 100%
+  );
+  width: 1900px;
+  height: 1080px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bg-container {
+  position: absolute;
+  right: -20%;
+  top: -5%;
+  background-image: url("./assets/APEX.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: auto;
+}
+
+.verticleText {
+  writing-mode: vertical-lr;
+  display: inline-block;
+  rotate: 180deg;
+}
+
+@media (max-width: 1024px) {
+  .bg-container {
+    right: -30%;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-container {
+    right: -50%;
+    width: 60vw;
+  }
+
+  .verticleText {
+    writing-mode: horizontal-tb;
+    rotate: 0;
+  }
+}
