@@ -164,6 +164,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <h3 className="font-bold text-center pt-3 pb-7 text-[#b93f3f]">Fill out the form details using the <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Google Form</a>.
+        </h3>
       </div>
     </Fragment>
   );
