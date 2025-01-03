@@ -89,7 +89,7 @@ const GetStarted = () => {
                     {/* Column 3: Size Selector and Foot Outline Guide */}
                     <div className="flex flex-col w-full md:w-1/3 space-y-4">
                         {/* <div className="flex flex-col space-y-2">
-                            <label htmlFor="footLength" className="text-[#CF9C5D] font-medium">
+                            <label htmlFor="footLength" className="text-[#b93f3f] font-medium">
                                 Enter foot length (cm):
                             </label>
                             <input
@@ -103,7 +103,7 @@ const GetStarted = () => {
                         </div> */}
 
                         <div className="flex flex-col space-y-2">
-                            <label htmlFor="size" className="text-[#CF9C5D] font-medium">
+                            <label htmlFor="size" className="text-[#b93f3f] font-medium">
                                 Select size:
                             </label>
                             <select
@@ -129,7 +129,7 @@ const GetStarted = () => {
                         </div>
 
                         <div className="flex flex-col space-y-2">
-                            <label htmlFor="colorPicker" className="text-[#CF9C5D] font-medium">
+                            <label htmlFor="colorPicker" className="text-[#b93f3f] font-medium">
                                 Pick a color:
                             </label>
                             <input
@@ -151,10 +151,10 @@ const GetStarted = () => {
                         </div>
 
                         <div className="flex flex-col space-y-2">
-                            <p className="text-[#CF9C5D]">
+                            <p className="text-[#b93f3f]">
                                 <strong>Selected Color:</strong> <span style={{ color }}>{color}</span>
                             </p>
-                            <p className="text-[#CF9C5D]">
+                            <p className="text-[#b93f3f]">
                                 <strong>Selected Size:</strong> {size}
                             </p>
                         </div>

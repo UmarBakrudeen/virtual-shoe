@@ -43,7 +43,7 @@ const MainSlider2 = () => {
           <img src={data.img} alt="Slide 1" className="z-[10]" />
           <div className={data.classFill}></div>
           <div className={data.classStrock}></div>
-          <div className="flex absolute top-[61.5%] right-[180px] text-xl gap-1 text-[#cf9c5d]">
+          <div className="flex absolute top-[61.5%] right-[180px] text-xl gap-1 text-[#b93f3f]">
             <AiFillStar />
             <AiFillStar />
             <AiFillStar />
